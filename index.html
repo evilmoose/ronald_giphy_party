@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Ronald's Giphy Party!</title>
+  <link href="bootstrap.min.css" rel="stylesheet">
+</head>
+
+<body>
+  <div class="container">
+    <h1 class="text-center mt-5 mb-5">RONALDS GIPHY PARTY</h1>
+    <form class="form-inline d-flex justify-content-center mb-4">
+      <input type="text" 
+              id="search" 
+              name="search"
+              placeholder="Type to search Giphs" 
+              class="form-control mr-2"/>
+      <input type="submit" 
+            class="btn btn-secondary" 
+            value="Search My Giphs!"/>
+      <button id="remove" class="btn btn-danger ml-2">Remove Giphs</button>
+    </form>
+    <div id="gif-area" class="row">
+    </div>
+  </div>
+
+<script src="https://code.jquery.com/jquery-3.2.1.js"></script>
+<script src="https://unpkg.com/axios/dist/axios.js"></script>
+<script src="app.js"></script>
+</body>
+
+</html>
