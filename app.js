@@ -28,7 +28,7 @@ $( "form" ).on( "submit", async ( event ) => {
     const res = await axios.get( "http://api.giphy.com/v1/gifs/search",
                         { params: {
                             q: input,
-                            api_key: ""} 
+                            api_key: "OVUHQqaRnavRMekxJxw0TAPjlCDAdFNa"} 
                         });
     addGif( res.data );
 });
